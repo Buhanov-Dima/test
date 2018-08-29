@@ -2,6 +2,7 @@ body {
     font-size: 20px;
     color: white;
     text-shadow: 0 1px 0 black, 0 0 5px black;
+    height: 2000px;
 }
 p {
     padding: 0 0.5em;
@@ -11,7 +12,8 @@ p {
     background-attachment: fixed;
     height: 400px;
 }
-#content1 {
+.wrapper {
+	position: relative;
     background-image: url("http://www.tamperlock.com/blog/wp-content/uploads/2014/08/london-england.jpg");
 }
 #content2 {
@@ -28,4 +30,106 @@ p {
 }
 #content6 {
     background-image: url("http://www.zeus.aegee.org/magazine/wp-content/uploads/napoli-golfo-vesuvio.jpg");
+}
+
+#parallax-bg3 {
+ z-index: 3;
+ position: fixed;
+ left: 50%;
+ top: 0;
+ width: 940px;
+ margin-left: -470px;
+ }
+ 
+ #bg3-1 {
+ position: absolute;
+ top: -111px;
+ left: 355px;
+ }
+ #bg3-2 {
+ position: absolute;
+ top: 812px;
+ left: 321px;
+ }
+ #bg3-3 {
+ position: absolute;
+ top: 1628px;
+ left: 403px;
+ }
+ #bg3-4 {
+ position: absolute;
+ top: 2700px;
+ left: -85px;
+ }
+
+ #parallax-bg2 {
+ z-index: 2;
+ position: fixed;
+ left: 50%;
+ top: 0;
+ width: 1200px;
+ margin-left: -600px;
+ }
+ #bg2-1 {
+ position: absolute;
+ top: 162px;
+ left: 200px;
+ }
+ #bg2-2 {
+ position: absolute;
+ top: 300px;
+ left: 1150px;
+ }
+ #bg2-3 {
+ position: absolute;
+ top: 543px;
+ left: -35px;
+ }
+ #bg2-4 {
+ position: absolute;
+ top: 1180px;
+ left: 250px;
+ }
+ #bg2-5 {
+ position: absolute;
+ top: 900px;
+ left: 890px;
+ }
+
+ #parallax-bg1 {
+ z-index: 1;
+ position: fixed;
+ left: 50%;
+ top: 0;
+ width: 1200px;
+ margin-left: -600px;
+ }
+ #bg1-1 {
+ position: absolute;
+ top: 85px;
+ left: -270px;
+ }
+ #bg1-2 {
+ position: absolute;
+ top: 440px;
+ left: 795px;
+ }
+ #bg1-3 {
+ position: absolute;
+ top: 900px;
+ left: -220px;
+ }
+ #bg1-4 {
+ position: absolute;
+ top: 1020px;
+ left: 450px;
+ }
+
+
+
+ #home {
+background: url(home-bg.jpg) center 0 repeat fixed; min-height: 1200px;
+}
+#about {
+background: url(about-bg.jpg) center 0 no-repeat min-height: 1200px;
 }
